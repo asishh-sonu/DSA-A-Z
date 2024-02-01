@@ -14,7 +14,7 @@ import java.util.*;
             System.out.println("English : " + marks[2]);
 
             //updated marks
-            marks[2] = 100;
+            marks[2] = marks[2] + 2;
             System.out.println("English : " + marks[2]);
         }
     }
