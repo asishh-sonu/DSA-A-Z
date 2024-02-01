@@ -16,5 +16,9 @@ import java.util.*;
             //updated marks
             marks[2] = marks[2] + 2;
             System.out.println("English : " + marks[2]);
+
+            //percentage
+            int percentage =(marks[0] + marks[1] + marks[2]) /3;
+            System.out.println("Percentage = " + percentage + " % ");
         }
     }
