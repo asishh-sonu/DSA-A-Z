@@ -1,4 +1,4 @@
-public class Solution {
+public class Codee {
     public static void Codee(String[] args) {
         String s = "leetcode";
         System.out.println(firstUniqChar(s));
