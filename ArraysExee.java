@@ -1,12 +1,13 @@
 public class ArraysExee{
     void searchInArray(){
-        int arr[] = {1,20,3,5,4,7};
-        int x = 22;
+        int arr[] = {1,220,3,5,4,7,20,40};
+        int x = 20;
         int ans = -1;
 
         for(int i = 0; i <arr.length; i++ ){
             if(arr[i] == x){
                 ans = i;
+                break ;
             }
         }
         if(ans == -1){
