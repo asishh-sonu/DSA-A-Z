@@ -20,4 +20,4 @@ public class ArraysExee{
         ArraysExee obj = new ArraysExee();
         obj.searchInArray();
     }
-}
+} 
