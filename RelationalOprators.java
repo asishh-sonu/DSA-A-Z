@@ -8,6 +8,5 @@ public class RelationalOprators{
         System.out.println(p<=q);
         System.out.println(p<q);
         System.out.println(p>q);
-
     }
 }
