@@ -26,5 +26,7 @@ public class LearningArrayList{
 
         list.set(1, 500);   //This will update the list
         System.out.println(list);
+
+        System.out.println(list.contains(12));  //This will check , if a elemet is present in the list or not
     }
 }
