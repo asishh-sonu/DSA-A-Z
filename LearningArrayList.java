@@ -21,7 +21,10 @@ public class LearningArrayList{
         list.remove(2);    //This will remove the index from the list
         System.out.println(list);
 
-        list.clear();
+        // list.clear();
+        // System.out.println(list);  //This will remove the list
+
+        list.set(1, 500);   //This will update the list
         System.out.println(list);
     }
 }
