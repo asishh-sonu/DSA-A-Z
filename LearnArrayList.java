@@ -15,5 +15,13 @@ public class LearnArrayList{
 
         list.add(2, 20);
         System.out.println(list);
+
+        List<Integer> newList = new ArrayList();
+        newList.add(150);
+        newList.add(200);
+
+        list.addAll(newList);
+        System.out.println(list);
+
     }
 }
