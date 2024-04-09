@@ -9,5 +9,8 @@ public class LearnArrayList{
         list.add(2);
         list.add(3);
         System.out.println(list);
+
+        list.add(4);
+        System.out.println(list);
     }
 }
