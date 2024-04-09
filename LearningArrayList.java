@@ -21,5 +21,7 @@ public class LearningArrayList{
         list.remove(2);    //This will remove the index from the list
         System.out.println(list);
 
+        list.clear();
+        System.out.println(list);
     }
 }
