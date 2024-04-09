@@ -18,15 +18,20 @@ public class LearningArrayList{
 
         System.out.println(list);
 
-        list.remove(2);    //This will remove the index from the list
-        System.out.println(list);
+        for(int i = 0; i<list.size(); i++){
+            System.out.println("The elements are " + list.get(i));
+        }
 
-        // list.clear();
-        // System.out.println(list);  //This will remove the list
+    //     list.remove(2);    //This will remove the index from the list
+    //     System.out.println(list);
 
-        list.set(1, 500);   //This will update the list
-        System.out.println(list);
+    //     // list.clear();
+    //     // System.out.println(list);  //This will remove the list
 
-        System.out.println(list.contains(12));  //This will check , if a elemet is present in the list or not
+    //     list.set(1, 500);   //This will update the list
+    //     System.out.println(list);
+
+    //     System.out.println(list.contains(12));  //This will check , if a elemet is present in the list or not
+    // }
     }
 }
