@@ -12,5 +12,8 @@ public class LearnArrayList{
 
         list.add(4);
         System.out.println(list);
+
+        list.add(2, 20);
+        System.out.println(list);
     }
 }
