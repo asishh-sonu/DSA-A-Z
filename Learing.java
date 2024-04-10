@@ -5,6 +5,7 @@ public class Learing{
         System.out.println("CSK won 3rd match");
         System.out.println("CSK won once again");
         System.out.println("today i am doing my first solo project");
+        System.out.println("i am building a weather app");
         
 
         Scanner sc = new Scanner(System.in);
