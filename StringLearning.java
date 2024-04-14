@@ -17,7 +17,7 @@ public class StringLearning{
 
         //char present at
 
-        String str ="Asish";
+        String strr ="Asish";
         System.out.println(str.charAt(2));
     }
 }
