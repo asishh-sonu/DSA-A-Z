@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <style>
+        /* Add any custom CSS styles here */
+        table {
+            border-collapse: collapse;
+            width: 300px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th colspan="2">Simple Calculator</th>
+        </tr>
+        <tr>
+            <td>First Number:</td>
+            <td><input type="text" id="firstNumber"></td>
+        </tr>
+        <tr>
+            <td>Second Number:</td>
+            <td><input type="text" id="secondNumber"></td>
+        </tr>
+        <tr>
+            <td>Result:</td>
+            <td><input type="text" id="result" readonly></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <button onclick="calculate('add')">Add</button>
+                <button onclick="calculate('subtract')">Subtract</button>
+                <button onclick="calculate('multiply')">Multiply</button>
+                <button onclick="calculate('divide')">Divide</button>
+            </td>
+        </tr>
+    </table>
+
+    <!-- JavaScript for calculator functionality -->
+    <script>
+        function calculate(operation) {
+            var x = parseFloat(document.getElementById('firstNumber').value);
+            var y = parseFloat(document.getElementById('secondNumber').value);
+            var result;
+
+            switch (operation) {
+                case 'add':
+                    result = x + y;
+                    break;
+                case 'subtract':
+                    result = x - y;
+                    break;
+                case 'multiply':
+                    result = x * y;
+                    break;
+                case 'divide':
+                    if (y !== 0) {
+                        result = x / y;
+                    } else {
+                        alert("Error: Division by zero!");
+                        return;
+                    }
+                    break;
+                default:
+                    alert("Invalid operation!");
+                    return;
+            }
+
+            document.getElementById('result').value = result;
+        }
+    </script>
+</body>
+</html>
