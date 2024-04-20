@@ -7,7 +7,7 @@ public class MAhiiii{
         System.err.print("Enter s :");
         int p = sc.nextInt();
         int sum = s + p;
-        System.out.println("enter the values: " + sum);
+        System.out.println("addition : " + sum);
 
     }
 }
