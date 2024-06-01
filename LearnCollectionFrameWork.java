@@ -44,6 +44,16 @@ public class LearnCollectionFrameWork{
 
         System.out.println(list.contains(500)); // this will check the element is present is in the list or not
 
+
+        for(int i = 0;i<list.size();i++){
+            System.out.println("The element is " + list.get(i));   // This will show the elements in the list
+        }
+
+
+
+
+
+
         // list.remove(2);   // remove the 2nd index
         // System.out.println(list);  
 
