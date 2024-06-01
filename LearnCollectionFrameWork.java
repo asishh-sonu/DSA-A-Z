@@ -41,6 +41,8 @@ public class LearnCollectionFrameWork{
         list.remove(2);   // remove the 2nd index
         System.out.println(list);  
 
+        list.remove(Integer.valueOf(20)); // This will remove the element 20 from the list
+        System.out.println(list);
 
         
     }
