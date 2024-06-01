@@ -38,14 +38,17 @@ public class LearnCollectionFrameWork{
 
         System.out.println(list);
 
-        list.remove(2);   // remove the 2nd index
-        System.out.println(list);  
+        list.set(1,500);
+        System.out.println(list);  // This updates the element in the index
 
-        list.remove(Integer.valueOf(20)); // This will remove the element 20 from the list
-        System.out.println(list);
+        // list.remove(2);   // remove the 2nd index
+        // System.out.println(list);  
 
-        list.clear();
-        System.out.println(list); // This will clear the list
+        // list.remove(Integer.valueOf(20)); // This will remove the element 20 from the list
+        // System.out.println(list);
+
+        // list.clear();
+        // System.out.println(list); // This will clear the list
         
     }
 }
