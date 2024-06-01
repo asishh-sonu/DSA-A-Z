@@ -44,6 +44,8 @@ public class LearnCollectionFrameWork{
         list.remove(Integer.valueOf(20)); // This will remove the element 20 from the list
         System.out.println(list);
 
+        list.clear();
+        System.out.println(list); // This will clear the list
         
     }
 }
