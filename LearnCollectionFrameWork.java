@@ -41,6 +41,9 @@ public class LearnCollectionFrameWork{
         list.set(1,500);
         System.out.println(list);  // This updates the element in the index
 
+
+        System.out.println(list.contains(500)); // this will check the element is present is in the list or not
+
         // list.remove(2);   // remove the 2nd index
         // System.out.println(list);  
 
