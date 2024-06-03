@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LearnStack",
+      "request": "launch",
+      "mainClass": "LearnStack",
+      "projectName": "java files_fe1c845a"
+    },
+    {
+      "type": "java",
       "name": "LearnCollectionFrameWork",
       "request": "launch",
       "mainClass": "LearnCollectionFrameWork",
