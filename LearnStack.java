@@ -13,6 +13,11 @@ public class LearnStack{
         System.out.println("Stack:" + animals); //push the elements to the stack
 
         System.out.println(animals.peek()); //It will show the top most element on the Stack
+
+        animals.pop(); // It will remove the top most element from the Stack 
+        System.out.println(animals.peek());
+
+        System.out.println("Stack:" + animals);
     }
 }
 
