@@ -9,5 +9,7 @@ public class LearnLinkedListQueue{
         Queue.offer(30);
         Queue.offer(100); // Insert the element into the queue
         System.out.println(Queue);
+
+        System.out.println(Queue.poll()); //Returns and removes the head of the queue
     }
 }
