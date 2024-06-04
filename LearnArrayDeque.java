@@ -11,5 +11,8 @@ public class LearnArrayDeque{
 
         System.out.println(adq.poll());
         System.out.println("poll()" + adq); //poll
+        
+        System.out.println(adq.pollFirst());
+        System.out.println("pollFirst()" + adq);
     }
 }
