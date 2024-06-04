@@ -11,5 +11,7 @@ public class LearnLinkedListQueue{
         System.out.println(Queue);
 
         System.out.println(Queue.poll()); //Returns and removes the head of the queue
+
+        System.out.println(Queue.peek()); //It will show the wich element is next in line in the Queue
     }
 }
