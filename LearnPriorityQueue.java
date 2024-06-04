@@ -14,5 +14,7 @@ public class LearnPriorityQueue{
 
         pq.poll();
         System.out.println(pq); // removes the head of the queue which was 8
+
+        System.out.println(pq.peek());
     }
 }
