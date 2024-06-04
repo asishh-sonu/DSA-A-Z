@@ -8,5 +8,8 @@ public class LearnArrayDeque{
         adq.offerFirst(10);
         adq.offerLast(30);
         System.out.println(adq); //adding
+
+        System.out.println(adq.poll());
+        System.out.println("poll()" + adq); //poll
     }
 }
