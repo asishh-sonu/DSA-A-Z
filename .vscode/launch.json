@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LearnLinkedListQueue",
+      "request": "launch",
+      "mainClass": "LearnLinkedListQueue",
+      "projectName": "java files_fe1c845a"
+    },
+    {
+      "type": "java",
       "name": "LearnStack",
       "request": "launch",
       "mainClass": "LearnStack",
