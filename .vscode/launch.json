@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LearnPriorityQueue",
+      "request": "launch",
+      "mainClass": "LearnPriorityQueue",
+      "projectName": "java files_fe1c845a"
+    },
+    {
+      "type": "java",
       "name": "LearnLinkedListQueue",
       "request": "launch",
       "mainClass": "LearnLinkedListQueue",
