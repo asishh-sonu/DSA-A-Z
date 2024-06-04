@@ -12,5 +12,7 @@ public class LearnPriorityQueue{
 
         System.out.println(pq); //min heap
 
+        pq.poll();
+        System.out.println(pq); // removes the head of the queue which was 8
     }
 }
