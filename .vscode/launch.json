@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LearnArraysClass",
+      "request": "launch",
+      "mainClass": "LearnArraysClass",
+      "projectName": "java files_fe1c845a"
+    },
+    {
+      "type": "java",
       "name": "LearnMap",
       "request": "launch",
       "mainClass": "LearnMap",

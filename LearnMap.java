@@ -15,5 +15,7 @@ public class LearnMap{
 
         // Print the map after putIfAbsent
         System.out.println("Map after putIfAbsent: " + numbers);
+
+        
     }
 }
