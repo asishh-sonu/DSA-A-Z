@@ -1,8 +1,12 @@
 import java.util.HashSet;
 import java.util.Set;
+import java.util.LinkedHashSet;
 public class LearnSet{
     public static void main(String args[]){
-        Set<Integer> set = new HashSet<>();
+
+        //Set<Integer> set = new HashSet<>();
+        Set<Integer> set = new LinkedHashSet<>();
+
         set.add(12);
         set.add(225);
         set.add(36);
@@ -20,7 +24,7 @@ public class LearnSet{
 
         System.out.println(set.size()); // It will check the size of the set
 
-        set.clear();
-        System.out.println(set); // It will clear the Set
+        // set.clear();
+        // System.out.println(set); // It will clear the Set
     }
 }
