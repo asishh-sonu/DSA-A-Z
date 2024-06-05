@@ -10,6 +10,8 @@ public class LearnSet{
         set.add(96);
 
         System.out.println(set); //Elements added into the Set
-
+        
+        set.remove(36);
+        System.out.println(set); // It will remove the element form the Set
     }
 }
