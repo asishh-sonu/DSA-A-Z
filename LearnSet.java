@@ -13,5 +13,7 @@ public class LearnSet{
         
         set.remove(36);
         System.out.println(set); // It will remove the element form the Set
+
+        System.out.println(set.contains(225)); //It will the cheeck the element is present in the set or not
     }
 }
