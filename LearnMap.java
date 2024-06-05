@@ -10,5 +10,10 @@ public class LearnMap{
         numbers.put("Three", 3 );
         numbers.put("Four", 4 );
         System.out.println(numbers);
+
+        numbers.putIfAbsent("Two", 23);
+
+        // Print the map after putIfAbsent
+        System.out.println("Map after putIfAbsent: " + numbers);
     }
 }
