@@ -17,5 +17,7 @@ public class LearnSet{
         System.out.println(set.contains(225)); //It will the cheeck the element is present in the set or not
 
         System.out.println(set.isEmpty()); //It will check the set is emepty or not
+
+        System.out.println(set.size()); // It will check the size of the set
     }
 }
