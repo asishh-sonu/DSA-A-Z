@@ -14,5 +14,9 @@ public class LearnCollections{
         list.add(29);
         System.out.println("min element " + Collections.min(list));
         System.out.println("Max element " + Collections.max(list));
+        System.out.println(Collections.frequency(list,9));
+
+        Collections.sort(list);
+        System.out.println(list); //sortting
     }
 }
