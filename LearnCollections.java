@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 public class LearnCollections{
@@ -16,7 +17,12 @@ public class LearnCollections{
         System.out.println("Max element " + Collections.max(list));
         System.out.println(Collections.frequency(list,9));
 
-        Collections.sort(list);
-        System.out.println(list); //sortting
+        // Collections.sort(list);
+        // System.out.println(list); 
+
+        Collections.sort(list, Comparator.reverseOrder());
+        System.out.println(list);  //Sortting in decending order
+
+
     }
 }
