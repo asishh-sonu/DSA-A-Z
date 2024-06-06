@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "PairSum",
+      "request": "launch",
+      "mainClass": "PairSum",
+      "projectName": "java files_fe1c845a"
+    },
+    {
+      "type": "java",
       "name": "LearnCollections",
       "request": "launch",
       "mainClass": "LearnCollections",
