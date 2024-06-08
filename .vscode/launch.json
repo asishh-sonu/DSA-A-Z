@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Miscproblems",
+      "request": "launch",
+      "mainClass": "Miscproblems",
+      "projectName": "java files_fe1c845a"
+    },
+    {
+      "type": "java",
       "name": "FirstRepeatingNumberr",
       "request": "launch",
       "mainClass": "FirstRepeatingNumberr",
