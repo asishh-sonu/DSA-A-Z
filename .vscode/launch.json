@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Secondlargest",
+      "request": "launch",
+      "mainClass": "Secondlargest",
+      "projectName": "java files_fe1c845a"
+    },
+    {
+      "type": "java",
       "name": "FindUnique",
       "request": "launch",
       "mainClass": "FindUnique",
