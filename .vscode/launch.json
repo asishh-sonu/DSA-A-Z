@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Rotate",
+      "request": "launch",
+      "mainClass": "Rotate",
+      "projectName": "java files_fe1c845a"
+    },
+    {
+      "type": "java",
       "name": "Miscproblems",
       "request": "launch",
       "mainClass": "Miscproblems",
