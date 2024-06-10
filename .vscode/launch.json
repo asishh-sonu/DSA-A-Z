@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Sprial",
+      "request": "launch",
+      "mainClass": "Sprial",
+      "projectName": "java files_fe1c845a"
+    },
+    {
+      "type": "java",
       "name": "Matrix",
       "request": "launch",
       "mainClass": "Matrix",
