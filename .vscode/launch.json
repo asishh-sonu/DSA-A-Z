@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Matrix",
+      "request": "launch",
+      "mainClass": "Matrix",
+      "projectName": "java files_fe1c845a"
+    },
+    {
+      "type": "java",
       "name": "InsertionSort",
       "request": "launch",
       "mainClass": "InsertionSort",
