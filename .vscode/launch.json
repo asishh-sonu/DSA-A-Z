@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MultiDimArray",
+      "request": "launch",
+      "mainClass": "MultiDimArray",
+      "projectName": "java files_fe1c845a"
+    },
+    {
+      "type": "java",
       "name": "SearchinMatrix",
       "request": "launch",
       "mainClass": "SearchinMatrix",
