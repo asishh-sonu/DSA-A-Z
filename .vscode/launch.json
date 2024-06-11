@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "SearchinMatrix",
+      "request": "launch",
+      "mainClass": "SearchinMatrix",
+      "projectName": "java files_fe1c845a"
+    },
+    {
+      "type": "java",
       "name": "DiagonalSum",
       "request": "launch",
       "mainClass": "DiagonalSum",
