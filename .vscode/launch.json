@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "DiagonalSum",
+      "request": "launch",
+      "mainClass": "DiagonalSum",
+      "projectName": "java files_fe1c845a"
+    },
+    {
+      "type": "java",
       "name": "Sprial",
       "request": "launch",
       "mainClass": "Sprial",
