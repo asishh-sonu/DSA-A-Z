@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "RotateMatrix",
+      "request": "launch",
+      "mainClass": "RotateMatrix",
+      "projectName": "java files_fe1c845a"
+    },
+    {
+      "type": "java",
       "name": "TransposeMatrix",
       "request": "launch",
       "mainClass": "TransposeMatrix",
