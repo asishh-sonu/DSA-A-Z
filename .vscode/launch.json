@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "StringExample",
+      "request": "launch",
+      "mainClass": "StringExample",
+      "projectName": "java files_fe1c845a"
+    },
+    {
+      "type": "java",
+      "name": "String",
+      "request": "launch",
+      "mainClass": "String",
+      "projectName": "java files_fe1c845a"
+    },
+    {
+      "type": "java",
       "name": "RotateMatrix",
       "request": "launch",
       "mainClass": "RotateMatrix",
