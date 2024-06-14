@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Stringpalindreom",
+      "request": "launch",
+      "mainClass": "Stringpalindreom",
+      "projectName": "java files_fe1c845a"
+    },
+    {
+      "type": "java",
       "name": "StringExample",
       "request": "launch",
       "mainClass": "StringExample",
