@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "StringCompression",
+      "request": "launch",
+      "mainClass": "StringCompression",
+      "projectName": "java files_fe1c845a"
+    },
+    {
+      "type": "java",
       "name": "StrBuilder",
       "request": "launch",
       "mainClass": "StrBuilder",
