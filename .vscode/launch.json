@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "substr",
+      "request": "launch",
+      "mainClass": "substr",
+      "projectName": "java files_fe1c845a"
+    },
+    {
+      "type": "java",
       "name": "ShortestPath",
       "request": "launch",
       "mainClass": "ShortestPath",
