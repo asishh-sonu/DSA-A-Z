@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "StrBuilder",
+      "request": "launch",
+      "mainClass": "StrBuilder",
+      "projectName": "java files_fe1c845a"
+    },
+    {
+      "type": "java",
       "name": "LargestStr",
       "request": "launch",
       "mainClass": "LargestStr",
