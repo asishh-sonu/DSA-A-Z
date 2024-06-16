@@ -21,6 +21,11 @@ public class Bitmanipulation{
         int bitMask = 1<<i;
         return n | bitMask;
     }
+
+    public static int clearIthBit(int n,int i){
+        int bitMask = ~(1<<i);
+        return n & bitMask;
+    }
     public static void main(String args[]){
         // System.out.println((5&6));
         // System.out.println((5|6));
@@ -34,7 +39,8 @@ public class Bitmanipulation{
         // OddOrEven(14);
 
         // System.out.println(getIthBit(10, 02));
-        System.out.println(setIthBit(10, 02));
+        // System.out.println(setIthBit(10, 02));
+        System.out.println(clearIthBit(10, 01));
         
     }
 
