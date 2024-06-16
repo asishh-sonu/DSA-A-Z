@@ -8,6 +8,15 @@ public class Bitmanipulation{
             System.out.println("Odd number");
         }
     }
+
+    public static int getIthBit(int n,int i){
+        int bitMask=1<<i;
+        if((n & bitMask)==0){
+            return 0;
+        } else {
+            return 1;
+        }
+    }
     public static void main(String args[]){
         // System.out.println((5&6));
         // System.out.println((5|6));
@@ -16,9 +25,12 @@ public class Bitmanipulation{
         // System.out.println((6>>1));
         // System.out.println((5<<2));
 
-        OddOrEven(3);
-        OddOrEven(11);
-        OddOrEven(14);
+        // OddOrEven(3);
+        // OddOrEven(11);
+        // OddOrEven(14);
+
+        System.out.println(getIthBit(10, 02));
         
     }
+
 }
