@@ -47,6 +47,17 @@ public class Bitmanipulation{
         int bitMask = a|b;
         return n & bitMask;
     }
+
+    public static int countSetbits(int n){
+        int count = 0;
+        while(n>0){
+            if((n & 1) != 0){
+                count ++;
+            }
+            n=n>>1;
+        }
+        return count;
+    }
     public static void main(String args[]){
         // System.out.println((5&6));
         // System.out.println((5|6));
@@ -67,8 +78,9 @@ public class Bitmanipulation{
 
         //System.out.println(clearIthBits(10, 02));
 
-        System.out.println(clearBitinrange(10, 02, 04));
+        // System.out.println(clearBitinrange(10, 02, 04));
 
+        System.out.println(countSetbits(10));
         }
         
     }
