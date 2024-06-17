@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "FastExponentiation",
+      "request": "launch",
+      "mainClass": "FastExponentiation",
+      "projectName": "java files_fe1c845a"
+    },
+    {
+      "type": "java",
+      "name": "fastExpo",
+      "request": "launch",
+      "mainClass": "fastExpo",
+      "projectName": "java files_fe1c845a"
+    },
+    {
+      "type": "java",
       "name": "PowerChecking",
       "request": "launch",
       "mainClass": "PowerChecking",
