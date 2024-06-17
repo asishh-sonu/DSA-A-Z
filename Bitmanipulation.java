@@ -41,6 +41,12 @@ public class Bitmanipulation{
         return n & bitMask;
     }
 
+    public static int clearBitinrange(int n,int i,int j){
+        int a = ((~0)<<(j+1));
+        int b = (1<<i)-1;
+        int bitMask = a|b;
+        return n & bitMask;
+    }
     public static void main(String args[]){
         // System.out.println((5&6));
         // System.out.println((5|6));
@@ -59,8 +65,11 @@ public class Bitmanipulation{
 
         // System.out.println(updateIthbit(10, 2, 1));
 
-        System.out.println(clearIthBits(10, 02));
+        //System.out.println(clearIthBits(10, 02));
+
+        System.out.println(clearBitinrange(10, 02, 04));
+
+        }
         
     }
 
-}
