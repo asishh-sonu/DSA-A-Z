@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "PowerChecking",
+      "request": "launch",
+      "mainClass": "PowerChecking",
+      "projectName": "java files_fe1c845a"
+    },
+    {
+      "type": "java",
       "name": "Bitmanipulation",
       "request": "launch",
       "mainClass": "Bitmanipulation",
