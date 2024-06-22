@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MaximumSubarray",
+      "request": "launch",
+      "mainClass": "MaximumSubarray",
+      "projectName": "java files_fe1c845a"
+    },
+    {
+      "type": "java",
+      "name": "Aaso",
+      "request": "launch",
+      "mainClass": "Aaso",
+      "projectName": "java files_fe1c845a"
+    },
+    {
+      "type": "java",
       "name": "MajorityElement",
       "request": "launch",
       "mainClass": "MajorityElement",
