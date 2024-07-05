@@ -6,5 +6,6 @@ public class match{
         System.out.println("king");
         System.out.println("boss");
         System.out.println("sonuuu");
+        System.out.println("nothing");
     }
 }
