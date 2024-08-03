@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Arrays",
+      "request": "launch",
+      "mainClass": "Arrays",
+      "projectName": "java files_fe1c845a"
+    },
+    {
+      "type": "java",
       "name": "ArrayLearning",
       "request": "launch",
       "mainClass": "ArrayLearning",
