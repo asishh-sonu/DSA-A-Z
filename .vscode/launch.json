@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ArrayLearning",
+      "request": "launch",
+      "mainClass": "ArrayLearning",
+      "projectName": "java files_fe1c845a"
+    },
+    {
+      "type": "java",
       "name": "Play",
       "request": "launch",
       "mainClass": "Play",
