@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Bubulu",
+      "request": "launch",
+      "mainClass": "Bubulu",
+      "projectName": "java files_fe1c845a"
+    },
+    {
+      "type": "java",
       "name": "Nothing",
       "request": "launch",
       "mainClass": "Nothing",
