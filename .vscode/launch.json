@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Race",
+      "request": "launch",
+      "mainClass": "Race",
+      "projectName": "java files_fe1c845a"
+    },
+    {
+      "type": "java",
       "name": "Something",
       "request": "launch",
       "mainClass": "Something",
