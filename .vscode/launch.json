@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "SubArray",
+      "request": "launch",
+      "mainClass": "SubArray",
+      "projectName": "java files_fe1c845a"
+    },
+    {
+      "type": "java",
       "name": "Bubulu",
       "request": "launch",
       "mainClass": "Bubulu",
