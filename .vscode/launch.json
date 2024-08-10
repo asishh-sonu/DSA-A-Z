@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "KadanesAlgo",
+      "request": "launch",
+      "mainClass": "KadanesAlgo",
+      "projectName": "java files_fe1c845a"
+    },
+    {
+      "type": "java",
+      "name": "Kadans",
+      "request": "launch",
+      "mainClass": "Kadans",
+      "projectName": "java files_fe1c845a"
+    },
+    {
+      "type": "java",
       "name": "DeadPoolll",
       "request": "launch",
       "mainClass": "DeadPoolll",
