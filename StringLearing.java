@@ -14,5 +14,10 @@ class StringLearing{
         name = sc.next();
         System.out.print("The string is :");
         System.out.println(name);
+
+        Scanner sc2 = new Scanner(System.in);
+        String fullname;
+        fullname = sc2.nextLine();
+        System.out.println(fullname);
     }
 }
