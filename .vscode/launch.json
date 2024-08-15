@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "StringLearing",
+      "request": "launch",
+      "mainClass": "StringLearing",
+      "projectName": "java files_fe1c845a"
+    },
+    {
+      "type": "java",
       "name": "KadanesAlgo",
       "request": "launch",
       "mainClass": "KadanesAlgo",
