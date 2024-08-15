@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "StringRev",
+      "request": "launch",
+      "mainClass": "StringRev",
+      "projectName": "java files_fe1c845a"
+    },
+    {
+      "type": "java",
       "name": "StringLearing",
       "request": "launch",
       "mainClass": "StringLearing",
