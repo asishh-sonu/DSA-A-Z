@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Asishzz",
+      "request": "launch",
+      "mainClass": "Asishzz",
+      "projectName": "java files_fe1c845a"
+    },
+    {
+      "type": "java",
       "name": "LargestString",
       "request": "launch",
       "mainClass": "LargestString",
