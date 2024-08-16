@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "StringAccenture",
+      "request": "launch",
+      "mainClass": "StringAccenture",
+      "projectName": "java files_fe1c845a"
+    },
+    {
+      "type": "java",
       "name": "Asishzz",
       "request": "launch",
       "mainClass": "Asishzz",
