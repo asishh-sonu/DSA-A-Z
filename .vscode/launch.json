@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Lion",
+      "request": "launch",
+      "mainClass": "Lion",
+      "projectName": "java files_fe1c845a"
+    },
+    {
+      "type": "java",
       "name": "StringAccenture",
       "request": "launch",
       "mainClass": "StringAccenture",
