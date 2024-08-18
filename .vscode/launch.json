@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Catu",
+      "request": "launch",
+      "mainClass": "Catu",
+      "projectName": "java files_fe1c845a"
+    },
+    {
+      "type": "java",
       "name": "Kuchbhi",
       "request": "launch",
       "mainClass": "Kuchbhi",
