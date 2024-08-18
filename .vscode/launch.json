@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Floyds",
+      "request": "launch",
+      "mainClass": "Floyds",
+      "projectName": "java files_fe1c845a"
+    },
+    {
+      "type": "java",
       "name": "Catu",
       "request": "launch",
       "mainClass": "Catu",
