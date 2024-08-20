@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Uppercaseandlowercase",
+      "request": "launch",
+      "mainClass": "Uppercaseandlowercase",
+      "projectName": "java files_fe1c845a"
+    },
+    {
+      "type": "java",
+      "name": "Techno",
+      "request": "launch",
+      "mainClass": "Techno",
+      "projectName": "java files_fe1c845a"
+    },
+    {
+      "type": "java",
       "name": "LowerCseUppercase",
       "request": "launch",
       "mainClass": "LowerCseUppercase",
