@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "EvenOddeven",
+      "request": "launch",
+      "mainClass": "EvenOddeven",
+      "projectName": "java files_fe1c845a"
+    },
+    {
+      "type": "java",
+      "name": "RemainingToys",
+      "request": "launch",
+      "mainClass": "RemainingToys",
+      "projectName": "java files_fe1c845a"
+    },
+    {
+      "type": "java",
+      "name": "MinimumMark",
+      "request": "launch",
+      "mainClass": "MinimumMark",
+      "projectName": "java files_fe1c845a"
+    },
+    {
+      "type": "java",
       "name": "Enocde",
       "request": "launch",
       "mainClass": "Enocde",
