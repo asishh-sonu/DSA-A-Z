@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LowerCseUppercase",
+      "request": "launch",
+      "mainClass": "LowerCseUppercase",
+      "projectName": "java files_fe1c845a"
+    },
+    {
+      "type": "java",
+      "name": "CountLetters",
+      "request": "launch",
+      "mainClass": "CountLetters",
+      "projectName": "java files_fe1c845a"
+    },
+    {
+      "type": "java",
       "name": "EvenOddeven",
       "request": "launch",
       "mainClass": "EvenOddeven",
