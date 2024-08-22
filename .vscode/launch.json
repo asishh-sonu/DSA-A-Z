@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ReverseStr",
+      "request": "launch",
+      "mainClass": "ReverseStr",
+      "projectName": "java files_fe1c845a"
+    },
+    {
+      "type": "java",
+      "name": "Canopy",
+      "request": "launch",
+      "mainClass": "Canopy",
+      "projectName": "java files_fe1c845a"
+    },
+    {
+      "type": "java",
       "name": "Uppercaseandlowercase",
       "request": "launch",
       "mainClass": "Uppercaseandlowercase",
